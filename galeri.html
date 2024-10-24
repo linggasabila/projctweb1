@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeri Kami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeri Kami</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="profile.html">Profil</a>
+        <a href="galeri.html">Galeri Kami</a>
+        <a href="kontak.html">Kontak Kami</a>
+        <a href="daftar.html">Daftar Kami</a>
+    </nav>
+
+    <section>
+        <h2>Galeri Gambar</h2>
+        <div class="gallery">
+            <img src="lingga.jpeg" alt="Gambar 1">
+            <img src="img1.jpeg" alt="Gambar 2">
+            <img src="img2.jpeg" alt="Gambar 3">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>lingga sabila, 102230047 Pemrogaman Web I &copy; 2024</p>
+    </footer>
+</body>
+</html>
